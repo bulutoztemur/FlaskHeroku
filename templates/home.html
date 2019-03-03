@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MovieDB - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <h1>MovieDB Homepage</h1>
+    <ul>
+        <li><a href="/movies">List movies</a></li>
+    </ul>
+    <footer>
+        <div id="datetime">{{ current_time }}</div>
+    </footer>
+</body>
+</html>
